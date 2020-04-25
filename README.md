@@ -1,5 +1,3 @@
-[![MIT Licence](https://img.shields.io/github/license/gitbrent/bootstrap4-toggle.svg)](https://opensource.org/licenses/mit-license.php)   [![Bootstrap 4.2.1](https://img.shields.io/badge/bootstrap-4.3.1-green.svg?style=flat-square)](https://getbootstrap.com/docs/4.1)  [![Known Vulnerabilities](https://snyk.io/test/npm/bootstrap4-toggle/badge.svg)](https://snyk.io/test/npm/bootstrap4-toggle)  [![npm downloads](https://img.shields.io/npm/dm/bootstrap4-toggle.svg)](https://www.npmjs.com/package/bootstrap4-toggle)  [![JSDelivr Badge](https://data.jsdelivr.com/v1/package/gh/gitbrent/bootstrap4-toggle/badge)](https://www.jsdelivr.com/package/gh/gitbrent/bootstrap4-toggle)
-
 # Bootstrap 4 Toggle
 
 **Bootstrap 4 Toggle** is a bootstrap plugin/widget that converts checkboxes into toggles.
@@ -9,59 +7,7 @@
 #### Library Distributions
 Project                                                                                    |Description
 -------------------------------------------------------------------------------------------|-------------------------------------------------------
-[bootstrap4-toggle](https://github.com/gitbrent/bootstrap4-toggle)                         | Supports bootstrap4 (requires jQuery)
-[bootstrap-switch-button](https://github.com/gitbrent/bootstrap-switch-button)             | Supports bootstrap4+ (ES6 class, no dependencies)
-[bootstrap-switch-button-react](https://github.com/gitbrent/bootstrap-switch-button-react) | Supports bootstrap4+ (React component, no dependencies)
-
-# Demos
-**Demos and API Docs:** https://gitbrent.github.io/bootstrap4-toggle/  
-
-![Demo GIF](https://github.com/gitbrent/bootstrap4-toggle/blob/master/doc/bootstrap4-toggle-demo.gif?raw=true)
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Installation](#installation)
-  - [CDN](#cdn)
-  - [Download](#download)
-  - [NPM](#npm)
-  - [Yarn](#yarn)
-- [Usage](#usage)
-  - [Initialize With HTML](#initialize-with-html)
-  - [Initialize With Code](#initialize-with-code)
-- [API](#api)
-  - [Options](#options)
-  - [Methods](#methods)
-- [Events](#events)
-  - [Event Propagation](#event-propagation)
-  - [Stopping Event Propagation](#stopping-event-propagation)
-  - [API vs Input](#api-vs-input)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-**************************************************************************************************
-
-# Installation
-
-## CDN
-```html
-<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">  
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
-```
-
-## Download
-[Latest GitHub Release](https://github.com/gitbrent/bootstrap4-toggle/releases/latest)
-
-## NPM
-```ksh
-npm install bootstrap4-toggle
-```
-
-## Yarn
-```ksh
-yarn add bootstrap4-toggle
-```
+[bootstrap4-toggle-jquery35](https://github.com/Philipp-Vogel/bootstrap4-toggle-jquery35)  | Supports bootstrap4 (requires jQuery)
 
 # Usage
 

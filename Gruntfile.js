@@ -5,7 +5,9 @@ module.exports = function(grunt){
 		clean: ['dist'],
 		uglify: {
 			options: {
-				preserveComments: 'some',
+				output : {
+					comments: /\*/,
+				},
 				sourceMap: true
 			},
 			build: {
@@ -18,7 +20,11 @@ module.exports = function(grunt){
 		},
 		cssmin: {
 			options: {
-				keepBreaks: true
+				format: {
+					breaks: {
+						afterComment: true
+					}
+				}
 			},
 			build: {
 				expand: true,

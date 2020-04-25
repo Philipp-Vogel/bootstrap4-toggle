@@ -1,17 +1,20 @@
 {
-  "name": "bootstrap4-toggle",
-  "version": "3.7.0-beta",
+  "name": "bootstrap4-toggle-jquery35",
+  "version": "3.7.1",
   "author": {
-    "name": "Brent Ely",
-    "url": "https://github.com/gitbrent/"
+    "name": "Philipp Vogel",
+    "url": "https://github.com/Philipp-Vogel/"
   },
   "description": "Bootstrap 4 Toggle is a bootstrap 4 plugin that converts checkboxes into toggles.",
-  "homepage": "https://gitbrent.github.io/bootstrap4-toggle/",
+  "homepage": "https://github.com/Philipp-Vogel/",
   "license": "MIT",
   "main": "js/bootstrap4-toggle.min.js",
   "files": [
+    "css/bootstrap4-toggle.css",
     "css/bootstrap4-toggle.min.css",
-    "js/bootstrap4-toggle.min.js"
+    "js/bootstrap4-toggle.js",
+    "js/bootstrap4-toggle.min.js",
+    "js/bootstrap4-toggle.min.js.map"
   ],
   "scripts": {
     "build": "grunt"
@@ -31,14 +34,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitbrent/bootstrap4-toggle.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gitbrent/bootstrap4-toggle/issues"
+    "url": "https://github.com/Philipp-Vogel/bootstrap4-toggle-jquery35.git"
   },
   "devDependencies": {
-    "doctoc": "^1.4.0",
-    "grunt": "^1.0.4",
+    "doctoc": "1.4.0",
+    "grunt": "1.1.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-uglify": "^4.0.1"
