@@ -1,13 +1,8 @@
 # Bootstrap 4 Toggle
 
 **Bootstrap 4 Toggle** is a bootstrap plugin/widget that converts checkboxes into toggles.
+This is a fork from [gitbrent/bootstrap4-toggle](https://github.com/gitbrent/bootstrap4-toggle) with support for jQuery 3.5 without using deprecated features.
 
-**************************************************************************************************
-
-#### Library Distributions
-Project                                                                                    |Description
--------------------------------------------------------------------------------------------|-------------------------------------------------------
-[bootstrap4-toggle-jquery35](https://github.com/Philipp-Vogel/bootstrap4-toggle-jquery35)  | Supports bootstrap4 (requires jQuery)
 
 # Usage
 

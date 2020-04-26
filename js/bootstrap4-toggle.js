@@ -128,7 +128,7 @@
 
 	Toggle.prototype.trigger = function (silent) {
 		this.$element.off('change.bs.toggle')
-		if (!silent) this.$element.change()
+		if (!silent) this.$element.trigger('change')
 		this.$element.on('change.bs.toggle', $.proxy(function() {
 			this.update()
 		}, this))
